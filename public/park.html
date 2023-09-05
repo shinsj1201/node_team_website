@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+    <title>박무열님</title>
+    <style>
+        * {
+            font-family: 'Gaegu', cursive;;
+        }
+
+        .mytitle {
+            width: 100%;
+            height: 300px;
+
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://velog.velcdn.com/images/rlrhs11/post/45b1cea7-1ec5-4a13-8d55-c9b43c2bd9b2/image.png);
+            background-position: center 30%;
+            background-size: cover;
+
+            color: white;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+       
+
+        .myprofile {
+            margin: 30px auto 0 auto;
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: cornsilk;
+        }
+
+        .mypic {
+            margin-right: 30px;
+        }
+
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 30px;
+            -webkit-box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.14);
+            box-shadow: 0px 0px 17px 2px rgba(0, 0, 0, 0.14);
+        }
+
+        .wrap {
+            display: flex;
+            flex-direction: column;
+
+            width: 1200px;
+            margin: 0 auto;
+            border-left: solid 1px #c4c4c4;
+            border-right: solid 1px #c4c4c4;
+        }
+
+    </style>
+
+    
+</head>
+
+<body>
+<div class="mytitle">
+    <h1>He11o Wor1d</h1>
+    <p>1조 박무열님에 대한 개인 소개 페이지 입니다.</p>
+</div>
+<div class="wrap">
+<div class="container">
+    <div class="item myprofile">
+        <div class="mypic">
+            <img alt="김태훈님" src="https://www.bing.com/images/blob?bcid=S6-WLNZ9gekFy1wFiLiecsV-.Xtn.....3c" width=300px>
+            <figcaption class="figure-caption">박무열님</figcaption>
+        </div>
+        <div class="profile">
+            <div class="d-flex align-items-start">
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button class="nav-link active" id="v-pills-1-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-1" type="button" role="tab" aria-controls="v-pills-1"
+                            aria-selected="true">프로필 & MBTI
+                    </button>
+                    <button class="nav-link" id="v-pills-2-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-2" type="button" role="tab" aria-controls="v-pills-2"
+                            aria-selected="false">원하는 개발자 상
+                    </button>
+                    <button class="nav-link" id="v-pills-3-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-3" type="button" role="tab" aria-controls="v-pills-3"
+                            aria-selected="false">자신의 장점/아쉬운점
+                    </button>
+                    <button class="nav-link" id="v-pills-4-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-4" type="button" role="tab" aria-controls="v-pills-4"
+                            aria-selected="false">협업에서의 스타일
+                    </button>
+                    <button class="nav-link" id="v-pills-6-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-6" type="button" role="tab" aria-controls="v-pills-6"
+                            aria-selected="false" onclick="location.href='http://naver.com'">개인블로그로 이동
+                    </button>
+                </div>
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+                        <p>이름: 박무열</p>
+                        <p>나이: 00</p>
+                        <p>MBTI: intj</p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+                        <p>~~~~~~~~~~~~~</p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+                        <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+                        <p>~~~~~~~~~~~~~~~~~~~~</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
